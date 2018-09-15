@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": "last 2 versions, IE 10, not dead",
+      "useBuiltIns": "usage",
+      "modules": "commonjs",
+      "debug": true
+    }]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
